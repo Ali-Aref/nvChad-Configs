@@ -6,8 +6,9 @@ local highlights = require "custom.highlights"
 
 -- onedark, one_light, aquarium, ayu
 M.ui = {
+  transparency = true,
   theme_toggle = { "nightowl", "jellybeans" },
-  theme = "catppuccin",
+  theme = "monekai",
   changed_themes = themes,
   hl_override = highlights.override,
   hl_add = highlights.add,

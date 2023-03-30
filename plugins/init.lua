@@ -43,4 +43,8 @@ return {
 
   -- remove plugin
   -- ["hrsh7th/cmp-path"] = false,
+  --
+  -- # Custom plugins
+  
+  --- function end
 }

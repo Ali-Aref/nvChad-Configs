@@ -5,3 +5,6 @@ local autocmd = vim.api.nvim_create_autocmd
 --   pattern = "*",
 --   command = "tabdo wincmd =",
 -- })
+-- 
+-- adding other snippets
+require'luasnip'.filetype_extend("python", {"django"})

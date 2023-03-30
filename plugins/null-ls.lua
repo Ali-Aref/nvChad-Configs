@@ -11,7 +11,7 @@ local sources = {
   -- webdev stuff
   b.formatting.prettier.with {
     extra_args = { "--print-with", "100" },
-    filetypes = { "html", "markdown", "css", "typescript", "typescriptreact", "javascript", "javascriptreact" },
+    filetypes = { "html", "markdown", "css", "typescript", "typescriptreact", "javascript", "javascriptreact", "typescript", "typescriptreact" },
   },
   b.formatting.isort.with { filetypes = { "python" }, },
   b.formatting.black.with {
@@ -33,7 +33,7 @@ local sources = {
    diagnostics_format = "#{m} flake8:[#{c}]",
   },
   b.diagnostics.codespell.with {
-   diagnostics_format = "#{m} codespell:[#{c}]", filetypes = { "python", "javascript", "javascriptreact", },
+   diagnostics_format = "#{m} codespell:[#{c}]", filetypes = { "python", "javascript", "javascriptreact", "typescript", "typescriptreact" },
   },
 }
 
